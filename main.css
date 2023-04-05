@@ -1,0 +1,281 @@
+:root{
+    --green-color: #0e723a;
+    --green2: #68b72e;
+    --orang-color: #e86f04;
+    --orangdark-color: #b9631c ; 
+    --programs-color: #ececec;
+}
+body{
+    
+ height: auto;
+    
+}
+h2,h3,h4,h5, .footer3 p{
+    font-family: arabicfonthead ;
+}
+@font-face {
+    font-family: arabicfonthead;
+    src: url(fonts/aref-bold.ttf);
+}
+
+.navbar .login-btn{
+    background-color: var(--green-color) ; 
+    color: white ;
+    padding: 0.5rem 1rem;
+    
+}
+.navbar .login-btn:hover{
+    background-color: #30c972;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover
+{
+    color: #30c972;
+}
+.navbar{
+    background-color: var(--green-color);
+}
+.main-btn{
+    background-color: var(--orang-color) ;
+    color: white ;
+    padding: 0.5rem 1rem;
+}
+.main-btn:hover{
+    background-color: var(--orangdark-color) ;
+    color: white ;
+    padding: 0.5rem 1rem;
+}
+.swiper1 {
+          width: 100%;
+          height: calc(100vh - 94px);
+          overflow: hidden;
+    }
+.swiper1 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }    
+.swiper1 .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .swiper1 .swiper-pagination span {
+      background-color: var(--green2);
+    }
+.swiper1 .swiper-button-next, .swiper1 .swiper-button-prev{
+  color: var(--green2);
+}    
+button .active{
+    background-color: white;
+}
+.navbar .navbar-toggler{
+    color: white;
+    border-color: white;
+    font-size: 15px;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.collapse .dropdown-menu{
+    width: min-content;
+}
+
+.prog-food .usprog{
+    background-color: var(--green-color);
+}
+.carousel .carousel-indicators > button{
+    background-color: #e86f04;
+}
+.prog-food .head-prog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.prog-food .head-prog span{
+    color: var(--green2);
+}
+
+.prog1:hover .prag1{
+    background-color: var(--green2);
+    color: white;
+}
+.prag1 .head1{
+    color: var(--green-color);
+}
+.midBot .text1{
+    background-color: var(--programs-color);
+}
+.midBot .text1 h4 ,h5{
+    color: var(--green-color);
+}
+.midBot:hover .text1 {
+    background-color: var(--green2);
+    color: #ececec
+
+}
+.mult-program .text1 h3{
+    color: var(--green-color);    
+}
+.row .img img {
+    min-height: 211px;
+    
+}
+/* *************************start swiper********************* */
+.media{
+    background-color: var(--programs-color);
+}
+.media .swiper {
+    width: 100%;
+    height: 350px;
+  }
+  .media .swiper .swiper-wrapper{
+    
+    height: 70%;
+  }
+
+  .media .swiper-wrapper .swiper-slide {
+    width:200px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .media .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    
+  }
+  .media h2 span{
+    color: var(--green2);
+  }
+  @media (max-width:360px ) {
+    .media .swiper {
+        
+        height: 200px;
+    }
+    .media .swiper .swiper-wrapper {
+        height: 80px;
+        padding-top: 36px;
+    }
+
+    
+  }
+  .swiper .swiper-pagination span{
+    background-color: var(--green2);
+  }
+  .lastNews h3 span{
+    color: var(--green2);
+  }
+  .lastnews-mult .news-text{
+    background-color: var(--programs-color);
+
+  }
+  .lastnews-mult .card-title{
+    color: var(--green-color);
+  }
+  .Our-partners{
+    height: auto;
+  }
+  .Our-partners h2{
+    color: var(--green2);
+  }
+  .Our-partners .swiper{
+    height: 250px;
+  }
+  .Our-partners .swiper .swiper-slide {
+    border: 2px solid var(--green-color);
+    overflow: hidden;
+  }
+  .Our-partners .swiper .swiper-slide:hover {
+    border: 2px solid var(--green2);
+    box-shadow: inset;
+    overflow: hidden;
+  }
+  .Our-partners .swiper .swiper-wrapper {
+   height: auto;
+  }
+  @media (max-width:360px ) {
+    .Our-partners .swiper {
+        
+        height: 200px;
+    }
+    .Our-partners .swiper .swiper-wrapper {
+        height: 80px;
+        padding-top: 36px;
+    }
+
+    
+  }
+  /* *************************footer************************ */
+  .footer1{
+    height: auto;
+    background-image: url("https://www.efb.eg/website/imge/NoPath.png");
+    background-size: cover;
+    
+  }
+  .textFooter h3{
+    color: var(--green2);
+  }
+  .textFooter ul li {
+    margin-top: 8px;
+  }
+  .textFooter ul .before{
+    border-right: 4px solid var(--green2);
+    padding-right: 4px;
+    
+    
+  }
+.footer2 .row{
+  background-color: var(--green-color);
+  height: auto;
+}
+.footer2 li svg {
+  width: 40px;
+  height: 40px;
+}
+.footer2 li .facebook:hover {
+  background-color:#1877f2;
+  color: #0077b5;
+  
+
+}
+.footer2 li .instagram:hover {
+  background-color:#E4405F;
+
+}
+.footer2 li .linkedin:hover {
+  background-color:#0077b5;
+
+}
+.footer2 li .youtube:hover {
+  background-color:#ff0000;
+
+}
+.footer2 li .twitter:hover {
+  background-color:#1da1f2;
+}
+.footer2 .input-group{
+  height: 40px;
+    width: 75%;
+}
+.footer2 .row .input-group .btn-news{
+  background-color: var(--green2);
+  color: #fff;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  
+
+}
+/* 01104787018 */
